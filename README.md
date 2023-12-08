@@ -1,4 +1,4 @@
-# HelloMbta
+# HELLO MBTA
 
 This is an example app using the [DotcomSdk](https://github.com/anthonyshull/dotcom-sdk) and [MbtaSdk](https://github.com/anthonyshull/mbta-sdk).
 
