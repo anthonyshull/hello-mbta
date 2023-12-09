@@ -4,7 +4,7 @@ defmodule HelloMbta.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      DotcomSdk.Cache.Stop
+      DOTCOM.Api.Stop
     ]
 
     opts = [strategy: :one_for_one, name: HelloMbta.Supervisor]

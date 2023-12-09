@@ -1,7 +1,7 @@
 defmodule HelloMbta do
   @moduledoc false
 
-  alias DotcomSdk.Cache.Stop
+  alias DOTCOM.Api.Stop
 
   @client MBTA.Connection.new()
 

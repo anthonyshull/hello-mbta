@@ -1,6 +1,6 @@
 %{
   "decorator": {:hex, :decorator, "1.4.0", "a57ac32c823ea7e4e67f5af56412d12b33274661bb7640ec7fc882f8d23ac419", [:mix], [], "hexpm", "0a07cedd9083da875c7418dea95b78361197cf2bf3211d743f6f7ce39656597f"},
-  "dotcom_sdk": {:git, "git@github.com:anthonyshull/dotcom-sdk.git", "bdb8de53db085cffacca0cbaad6e605beca02411", []},
+  "dotcom_sdk": {:git, "git@github.com:anthonyshull/dotcom-sdk.git", "f196c4f4e7ebd490516d01ce8a999188dce7651d", []},
   "jason": {:hex, :jason, "1.4.1", "af1504e35f629ddcdd6addb3513c3853991f694921b1b9368b0bd32beb9f1b63", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "fbb01ecdfd565b56261302f7e1fcc27c4fb8f32d56eab74db621fc154604a7a1"},
   "logster": {:hex, :logster, "2.0.0-rc.3", "0edcafd1433e305ff3a3a4ce8b1a3b78697e165a39e9d1f20e6fb7d038e9bda1", [:mix], [{:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}, {:plug, "~> 1.0", [hex: :plug, repo: "hexpm", optional: false]}], "hexpm", "4dbcd4f7d0bc2d681c400a70364ae6b2f07b214c06b865730b00f22c55dd4e0f"},
   "mbta_sdk": {:git, "git@github.com:anthonyshull/mbta-sdk.git", "0345aa2a736f5e463fd6341c3256f220b2879f31", []},

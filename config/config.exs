@@ -1,6 +1,6 @@
 import Config
 
-config :dotcom_sdk, DotcomSdk.Cache,
+config :dotcom_sdk, DOTCOM.Api,
   conn_opts: [
     host: "127.0.0.1",
     port: 6379
