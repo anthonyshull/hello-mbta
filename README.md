@@ -62,7 +62,7 @@ Having a single, external, shared entrypoint into the cache has several benefits
 
 1. Data is consistent no matter which process requests it (think round robin.)
 2. The cache stays primed through an application restart.
-3. The work of one process (getting upstream data from the source of record) benefits all nodes.
+3. The work of one process (getting upstream data from the source of record) benefits all processes.
 4. It is easy to update or even flush the cache.
 5. Application memory load is dramatically decreased. Basically, it is punted to the cache...which is optimized for precisely that workload.
 6. Application complexity is dramatically decreased. You get to delete a lot of code.
@@ -73,4 +73,4 @@ You can run Redis however you see fit...cluster mode, sentinel mode, etc.
 Now, the drawback.
 In-memory caches are incredibly fast.
 Instead of making a bus hop, using an external cache means having to make a network hop (within the same data center, most likely.)
-But, unless your application does rebalancing, sharding, etc. (basically turn it into Redis) the extra few milliseconds of latency incured is worth the benefits outline above.
+But, unless your application does rebalancing, sharding, etc. (basically turn it into Redis) the extra few milliseconds of latency incured is worth the benefits outlined above.
